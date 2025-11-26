@@ -1,0 +1,30 @@
+# ---------------------
+# 1. Dependency/Virtual Environment
+# ---------------------
+venv/
+.venv/
+.mypy_cache/
+
+# ---------------------
+# 2. Security/Credentials
+# ---------------------
+.env
+*.key
+*.pem
+
+# ---------------------
+# 3. Build & Python Files
+# ---------------------
+*.pyc
+__pycache__/
+*.log
+/media  # If storing uploaded files locally
+/static_collected # If using Django's collectstatic
+
+# ---------------------
+# 4. OS and Editor Files
+# ---------------------
+.DS_Store
+*.swp
+.idea/
+.vscode/
